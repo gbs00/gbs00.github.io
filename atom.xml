@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="https://gbs00.top/atom.xml" rel="self"/>
+  
+  <link href="https://gbs00.top/"/>
+  <updated>2021-06-13T12:03:01.777Z</updated>
+  <id>https://gbs00.top/</id>
+  
+  <author>
+    <name>gbs00</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello!</title>
+    <link href="https://gbs00.top/2021/06/13/Hello!hexo/8"/>
+    <id>https://gbs00.top/2021/06/13/Hello!hexo/8</id>
+    <published>2021-06-13T12:00:17.000Z</published>
+    <updated>2021-06-13T12:03:01.777Z</updated>
+    
+    <content type="html"><![CDATA[<p>你好，hexo！</p><p>为了你真的遇上了很多麻烦</p><p>踩了很多坑</p><p>而且现在也没有配置好</p><p>真的不知道为什么butterfly主题会这么难配置</p><p>一堆坑。。。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;你好，hexo！&lt;/p&gt;
+&lt;p&gt;为了你真的遇上了很多麻烦&lt;/p&gt;
+&lt;p&gt;踩了很多坑&lt;/p&gt;
+&lt;p&gt;而且现在也没有配置好&lt;/p&gt;
+&lt;p&gt;真的不知道为什么butterfly主题会这么难配置&lt;/p&gt;
+&lt;p&gt;一堆坑。。。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="日记" scheme="https://gbs00.top/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+</feed>
