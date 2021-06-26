@@ -6,7 +6,7 @@
   <link href="https://gbs00.top/atom.xml" rel="self"/>
   
   <link href="https://gbs00.top/"/>
-  <updated>2021-06-13T12:03:01.777Z</updated>
+  <updated>2021-06-26T09:47:03.852Z</updated>
   <id>https://gbs00.top/</id>
   
   <author>
@@ -17,23 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello!</title>
-    <link href="https://gbs00.top/2021/06/13/Hello!hexo/8"/>
-    <id>https://gbs00.top/2021/06/13/Hello!hexo/8</id>
+    <title>你好，HEXO</title>
+    <link href="https://gbs00.top/2021/06/13/Hello!hexo/"/>
+    <id>https://gbs00.top/2021/06/13/Hello!hexo/</id>
     <published>2021-06-13T12:00:17.000Z</published>
-    <updated>2021-06-13T12:03:01.777Z</updated>
+    <updated>2021-06-26T09:47:03.852Z</updated>
     
-    <content type="html"><![CDATA[<p>你好，hexo！</p><p>为了你真的遇上了很多麻烦</p><p>踩了很多坑</p><p>而且现在也没有配置好</p><p>真的不知道为什么butterfly主题会这么难配置</p><p>一堆坑。。。</p>]]></content>
+    <content type="html"><![CDATA[<p>成功再次配置hexo博客</p><p>之前的数据全部丢失了，真的很可惜啊。</p><p>希望再接再厉吧，继续运营下去。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;你好，hexo！&lt;/p&gt;
-&lt;p&gt;为了你真的遇上了很多麻烦&lt;/p&gt;
-&lt;p&gt;踩了很多坑&lt;/p&gt;
-&lt;p&gt;而且现在也没有配置好&lt;/p&gt;
-&lt;p&gt;真的不知道为什么butterfly主题会这么难配置&lt;/p&gt;
-&lt;p&gt;一堆坑。。。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;成功再次配置hexo博客&lt;/p&gt;
+&lt;p&gt;之前的数据全部丢失了，真的很可惜啊。&lt;/p&gt;
+&lt;p&gt;希望再接再厉吧，继续运营下去。&lt;/p&gt;
 </summary>
       
     
