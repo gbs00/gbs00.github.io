@@ -6,7 +6,7 @@
   <link href="https://gbs00.top/atom.xml" rel="self"/>
   
   <link href="https://gbs00.top/"/>
-  <updated>2021-07-06T14:53:37.832Z</updated>
+  <updated>2021-07-08T15:00:01.647Z</updated>
   <id>https://gbs00.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>红宝书学习笔记day2</title>
+    <link href="https://gbs00.top/2021/07/08/%E7%BA%A2%E5%AE%9D%E4%B9%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0day2/"/>
+    <id>https://gbs00.top/2021/07/08/%E7%BA%A2%E5%AE%9D%E4%B9%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0day2/</id>
+    <published>2021-07-08T14:34:13.000Z</published>
+    <updated>2021-07-08T15:00:01.647Z</updated>
+    
+    <content type="html"><![CDATA[<p>学习JS的第二天，侄子侄女终于走了，可以安安心心学习了！</p><h3 id="p14"><a href="#p14" class="headerlink" title="p14"></a>p14</h3><p>标记为async的脚本并不保证按照指定它们的先后顺序执行</p><p>异步脚本不要在加载期间修改DOM</p><p>异步脚本一定会在页面的load事件前执行，但也可能会在DOMContentLoaded事件触发前或之后执行</p><h3 id="p18"><a href="#p18" class="headerlink" title="p18"></a>p18</h3><p>&lt;/noscript&gt;元素：当前浏览器不支持JavaScript时如何让页面平稳运地退化,指定在不支持脚本的浏览器中显示的替代内容</p><h3 id="p19"><a href="#p19" class="headerlink" title="p19"></a>p19</h3><p>ES中的一切变量，函数名和操作符都区分大小写</p><p>标识符：指变量，函数，属性的名字，或者函数的参数</p><p>​               第一个字符必须是一个字母，下划线或者美元符号</p><p>​               采用驼峰式命名，第一个字母小写，剩下单词首字母大写</p><h3 id="p20"><a href="#p20" class="headerlink" title="p20"></a>p20</h3><p>不能使用<strong>关键名，true，false，null,保留字当标识符</strong></p><p>单行注释使用//,块级注释使用/**/</p><p>“ use strict; ”开启严格模式，执行结果与平常不相同</p><h3 id="p21"><a href="#p21" class="headerlink" title="p21"></a>p21</h3><p>建议不要省略语句后的**;**</p><p>代码块以{}为标志，在控制语句中使用</p><p>关键字用于表示控制语句开始或结束，或用于执行特定的操作 例：case</p><p>关键字和保留字都不能用作标识符</p><h3 id="p22"><a href="#p22" class="headerlink" title="p22"></a>p22</h3><p>ES的变量是松散类型的，可用来保存任何类型的数据</p><p>定义变量时使用var类型操作符，后跟变量名</p><pre><code>var message=&quot;hi&quot;;</code></pre><p>var操作的变量将成为定义该变量的作用域中的局部变量</p><p>局部变量：变量会在函数退出后自动销毁</p><pre><code>//例子function test()&#123;  var message=&quot;hi&quot;; //test函数中的局部变量message&#125;test();alert(message);  //无法执行</code></pre><h3 id="p23"><a href="#p23" class="headerlink" title="p23"></a>p23</h3><p>省略var也可以创建全局变量</p><pre><code>function test()&#123;  message=&quot;hi&quot;;&#125;test();alert(message);</code></pre><p><strong>但是这种行为并不被推荐，因为容易混淆</strong></p><p>利用以下方式同时定义多个变量</p><pre><code>var message=&quot;hi&quot;,    found=false,    age=29; //变量之间用逗号隔开</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;学习JS的第二天，侄子侄女终于走了，可以安安心心学习了！&lt;/p&gt;
+&lt;h3 id=&quot;p14&quot;&gt;&lt;a href=&quot;#p14&quot; class=&quot;headerlink&quot; title=&quot;p14&quot;&gt;&lt;/a&gt;p14&lt;/h3&gt;&lt;p&gt;标记为async的脚本并不保证按照指定它们的先后顺序执行&lt;/</summary>
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://gbs00.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="JS学习笔记" scheme="https://gbs00.top/tags/JS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>红宝书学习笔记day1</title>

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gbs00.top/2021/07/08/%E7%BA%A2%E5%AE%9D%E4%B9%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0day2/</loc>
+    
+    <lastmod>2021-07-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://gbs00.top/2021/07/06/%E7%BA%A2%E5%AE%9D%E4%B9%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0day1/</loc>
     
     <lastmod>2021-07-06</lastmod>
@@ -32,22 +39,22 @@
 
   <url>
     <loc>https://gbs00.top/</loc>
-    <lastmod>2021-07-06</lastmod>
+    <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://gbs00.top/tags/JS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-07-06</lastmod>
+    <loc>https://gbs00.top/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://gbs00.top/tags/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2021-07-06</lastmod>
+    <loc>https://gbs00.top/tags/JS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -56,7 +63,7 @@
   
   <url>
     <loc>https://gbs00.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-07-06</lastmod>
+    <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
