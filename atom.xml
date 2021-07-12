@@ -6,7 +6,7 @@
   <link href="https://gbs00.top/atom.xml" rel="self"/>
   
   <link href="https://gbs00.top/"/>
-  <updated>2021-07-08T15:00:01.647Z</updated>
+  <updated>2021-07-12T12:47:00.537Z</updated>
   <id>https://gbs00.top/</id>
   
   <author>
@@ -17,13 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>红宝书学习笔记day3</title>
+    <link href="https://gbs00.top/2021/07/12/%E7%BA%A2%E5%AE%9D%E4%B9%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0day3/"/>
+    <id>https://gbs00.top/2021/07/12/%E7%BA%A2%E5%AE%9D%E4%B9%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0day3/</id>
+    <published>2021-07-12T09:07:56.000Z</published>
+    <updated>2021-07-12T12:47:00.537Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="p24"><a href="#p24" class="headerlink" title="p24"></a>p24</h5><pre><code>var message=&quot;some string&quot;;alert(typeof message);   //显示为stringalert(typeof 0626);   //显示为number   </code></pre><p>typeof是操作符而不是函数，alert后的圆括号其实可以省略的啊。</p><pre><code>alert typeof null; // 会返回object，因为null被认为是一个空的对象引用</code></pre><h6 id="undefined类型："><a href="#undefined类型：" class="headerlink" title="undefined类型："></a>undefined类型：</h6><p>他只有一个值，就是undefined。</p><p>在使用var声明变量但没有初始化(我理解就是还没赋值)的时候，值就是undefined。</p><pre><code>var message;alert typeof message;</code></pre><h6 id="null类型："><a href="#null类型：" class="headerlink" title="null类型："></a>null类型：</h6><p>他也只有一个值啊，就是null。</p><p>null表示一个空对象指针，使用typeof 检测的时候会返回object。</p><p>如果定义的对象用来保存对象，初始化值应该是null。</p><pre><code>if&#123;car!=null&#125; //检测变量是否保存了一个对象的引用</code></pre><p>undefined派生自null(感觉就是他儿子呗)</p><pre><code>alert (null==undefined); //亲子鉴定，结果是true</code></pre><p>只要用于保存对象的变量还没有保存对象，就应该保存null值，方便区分undefined和null。</p><h5 id="p26"><a href="#p26" class="headerlink" title="p26"></a>p26</h5><p>Boolean类型：true/false</p><p>true不一定是1，false也不一定等于0。</p><p>将值转换为对应的boolean值，可调用转型函数Boolean()。</p><pre><code>var message=&quot;hi&quot;;var messageAsBoolean = Boolean(message);alert (messageAsBoolean);</code></pre><p>转换规则如下：</p><table><thead><tr><th></th><th>true</th><th>false</th></tr></thead><tbody><tr><td>string</td><td>非空字符串</td><td>空字符串</td></tr><tr><td>number</td><td>非0</td><td>0和NaN</td></tr><tr><td>object</td><td>任何对象</td><td>null</td></tr><tr><td>undefined</td><td>n/a(不适用)</td><td>undefined</td></tr></tbody></table><h5 id="p27"><a href="#p27" class="headerlink" title="p27"></a>p27</h5><p>number类型：</p><p>整数还可通过八或十六进制，八进制第一位必须是0。</p><p>如果字面值中数值超出范围，前导0将被忽略。</p><p>八进制在严格模式下无效。</p><p>在进行算术计算，最终都会被转换成十进制。</p><h5 id="p28"><a href="#p28" class="headerlink" title="p28"></a>p28</h5><p>浮点函数：</p><p>数值当中必须包含一个小数点，小数点后必有至少1位小数。</p><p>默认情况下，小数点后带有6个0以上的浮点转换为以e为表示方法。</p><p>浮点的最高精度是17位小数。</p><p>不要测试某个特定的浮点数值。</p><h5 id="p29"><a href="#p29" class="headerlink" title="p29"></a>p29</h5><p>NaN：非数值，任何涉及到NaN的操作都会返回NaN,NaN与任何值都不相等，<strong>包括他本身</strong>。</p><pre><code>alert(NaN==NaN); //结果是false</code></pre><p>isNaN()函数：确定参数是否”不是数值“，任何不能被转换为数值的值会被返回true。</p><pre><code>alert(isNaN(10)); //输出falsealert(isNaN(&quot;10&quot;)); //输出true，因为能被转换成数值10alert(isNaN(true))  //boolean值可以被转换成0或者1</code></pre><h5 id="p30"><a href="#p30" class="headerlink" title="p30"></a>p30</h5><p>数值转换：</p><p>1.Number()转换方式</p><table><thead><tr><th>转换前</th><th>转换后</th></tr></thead><tbody><tr><td>Boolean</td><td>0或者1</td></tr><tr><td>number</td><td>传入或者返回相同数值</td></tr><tr><td>null</td><td>返回0</td></tr><tr><td>undefined</td><td>NaN</td></tr></tbody></table><p>2.pareInt()</p><p>如果第一个字符不是数字字符或者负号，parseInt()返回NaN。</p><p>3.parseFloat()</p><p>如果第一个字符是数字符号，则会继续解析知道碰上非数字，小数点不算数字</p><p>例子：22.5会被转换为22</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h5 id=&quot;p24&quot;&gt;&lt;a href=&quot;#p24&quot; class=&quot;headerlink&quot; title=&quot;p24&quot;&gt;&lt;/a&gt;p24&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;var message=&amp;quot;some string&amp;quot;;
+alert(typeof message)</summary>
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://gbs00.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="JS学习笔记" scheme="https://gbs00.top/tags/JS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>红宝书学习笔记day2</title>
     <link href="https://gbs00.top/2021/07/08/%E7%BA%A2%E5%AE%9D%E4%B9%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0day2/"/>
     <id>https://gbs00.top/2021/07/08/%E7%BA%A2%E5%AE%9D%E4%B9%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0day2/</id>
     <published>2021-07-08T14:34:13.000Z</published>
-    <updated>2021-07-08T15:00:01.647Z</updated>
+    <updated>2021-07-12T09:15:41.717Z</updated>
     
-    <content type="html"><![CDATA[<p>学习JS的第二天，侄子侄女终于走了，可以安安心心学习了！</p><h3 id="p14"><a href="#p14" class="headerlink" title="p14"></a>p14</h3><p>标记为async的脚本并不保证按照指定它们的先后顺序执行</p><p>异步脚本不要在加载期间修改DOM</p><p>异步脚本一定会在页面的load事件前执行，但也可能会在DOMContentLoaded事件触发前或之后执行</p><h3 id="p18"><a href="#p18" class="headerlink" title="p18"></a>p18</h3><p>&lt;/noscript&gt;元素：当前浏览器不支持JavaScript时如何让页面平稳运地退化,指定在不支持脚本的浏览器中显示的替代内容</p><h3 id="p19"><a href="#p19" class="headerlink" title="p19"></a>p19</h3><p>ES中的一切变量，函数名和操作符都区分大小写</p><p>标识符：指变量，函数，属性的名字，或者函数的参数</p><p>​               第一个字符必须是一个字母，下划线或者美元符号</p><p>​               采用驼峰式命名，第一个字母小写，剩下单词首字母大写</p><h3 id="p20"><a href="#p20" class="headerlink" title="p20"></a>p20</h3><p>不能使用<strong>关键名，true，false，null,保留字当标识符</strong></p><p>单行注释使用//,块级注释使用/**/</p><p>“ use strict; ”开启严格模式，执行结果与平常不相同</p><h3 id="p21"><a href="#p21" class="headerlink" title="p21"></a>p21</h3><p>建议不要省略语句后的**;**</p><p>代码块以{}为标志，在控制语句中使用</p><p>关键字用于表示控制语句开始或结束，或用于执行特定的操作 例：case</p><p>关键字和保留字都不能用作标识符</p><h3 id="p22"><a href="#p22" class="headerlink" title="p22"></a>p22</h3><p>ES的变量是松散类型的，可用来保存任何类型的数据</p><p>定义变量时使用var类型操作符，后跟变量名</p><pre><code>var message=&quot;hi&quot;;</code></pre><p>var操作的变量将成为定义该变量的作用域中的局部变量</p><p>局部变量：变量会在函数退出后自动销毁</p><pre><code>//例子function test()&#123;  var message=&quot;hi&quot;; //test函数中的局部变量message&#125;test();alert(message);  //无法执行</code></pre><h3 id="p23"><a href="#p23" class="headerlink" title="p23"></a>p23</h3><p>省略var也可以创建全局变量</p><pre><code>function test()&#123;  message=&quot;hi&quot;;&#125;test();alert(message);</code></pre><p><strong>但是这种行为并不被推荐，因为容易混淆</strong></p><p>利用以下方式同时定义多个变量</p><pre><code>var message=&quot;hi&quot;,    found=false,    age=29; //变量之间用逗号隔开</code></pre>]]></content>
+    <content type="html"><![CDATA[<p>学习JS的第二天，侄子侄女终于走了，可以安安心心学习了！</p><h3 id="p14"><a href="#p14" class="headerlink" title="p14"></a>p14</h3><p>标记为async的脚本并不保证按照指定它们的先后顺序执行</p><p>异步脚本不要在加载期间修改DOM</p><p>异步脚本一定会在页面的load事件前执行，但也可能会在DOMContentLoaded事件触发前或之后执行</p><h3 id="p18"><a href="#p18" class="headerlink" title="p18"></a>p18</h3><p>&lt;/noscript&gt;元素：当前浏览器不支持JavaScript时如何让页面平稳运地退化,指定在不支持脚本的浏览器中显示的替代内容</p><h3 id="p19"><a href="#p19" class="headerlink" title="p19"></a>p19</h3><p>ES中的一切变量，函数名和操作符都区分大小写</p><p>标识符：指变量，函数，属性的名字，或者函数的参数</p><p>​               第一个字符必须是一个字母，下划线或者美元符号</p><p>​               采用驼峰式命名，第一个字母小写，剩下单词首字母大写</p><h3 id="p20"><a href="#p20" class="headerlink" title="p20"></a>p20</h3><p>不能使用<strong>关键名，true，false，null,保留字当标识符</strong></p><p>单行注释使用//,块级注释使用/**/</p><p>“ use strict; ”开启严格模式，执行结果与平常不相同</p><h3 id="p21"><a href="#p21" class="headerlink" title="p21"></a>p21</h3><p>建议不要省略语句后的 <strong>;</strong></p><p>代码块以<strong>{}</strong>为标志，在控制语句中使用</p><p>关键字用于表示控制语句开始或结束，或用于执行特定的操作 例：case</p><p>关键字和保留字都不能用作标识符</p><h3 id="p22"><a href="#p22" class="headerlink" title="p22"></a>p22</h3><p>ES的变量是松散类型的，可用来保存任何类型的数据</p><p>定义变量时使用var类型操作符，后跟变量名</p><pre><code>var message=&quot;hi&quot;;</code></pre><p>var操作的变量将成为定义该变量的作用域中的局部变量</p><p>局部变量：变量会在函数退出后自动销毁</p><pre><code>//例子function test()&#123;  var message=&quot;hi&quot;; //test函数中的局部变量message&#125;test();alert(message);  //无法执行</code></pre><h3 id="p23"><a href="#p23" class="headerlink" title="p23"></a>p23</h3><p>省略var也可以创建全局变量</p><pre><code>function test()&#123;  message=&quot;hi&quot;;&#125;test();alert(message);</code></pre><p><strong>但是这种行为并不被推荐，因为容易混淆</strong></p><p>利用以下方式同时定义多个变量</p><pre><code>var message=&quot;hi&quot;,    found=false,    age=29; //变量之间用逗号隔开</code></pre><p>在js严格模式下，不能够定义名为eval或者arguments的变量</p><h5 id="几种简单的变量"><a href="#几种简单的变量" class="headerlink" title="几种简单的变量"></a>几种简单的变量</h5><p>1.undefined 未定义的值</p><p>2.null </p><p>3.boolean 布尔值</p><p>4.number 数值</p><p>5.string 字符串</p><p>6.object 对象 </p><h6 id="ps："><a href="#ps：" class="headerlink" title="ps："></a>ps：</h6><p>typeof操作符能够检测数据类型</p><p>function是函数，不是数据类型</p>]]></content>
     
     
       
